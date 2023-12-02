@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc8d991b-5432-41b1-b5e7-0aa8a62d7096" name="Changes" comment="TablicaDwuwymiarowa FirstCommit.">
+    <list default="true" id="fc8d991b-5432-41b1-b5e7-0aa8a62d7096" name="Changes" comment="Tablica wypeł. i wyświet.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TablicaDwuwymiarowa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablicaDwuwymiarowa.java" afterDir="false" />
     </list>
@@ -61,7 +61,7 @@
       <workItem from="1701517913214" duration="4000" />
       <workItem from="1701517963790" duration="759000" />
       <workItem from="1701518752899" duration="606000" />
-      <workItem from="1701519396506" duration="306000" />
+      <workItem from="1701519396506" duration="5269000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit for LAB4.">
       <option name="closed" value="true" />
@@ -87,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701518079343</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tablica wypeł. i wyświet.">
+      <option name="closed" value="true" />
+      <created>1701519804117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701519804117</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +105,7 @@
     <MESSAGE value="Initial Commit for LAB4." />
     <MESSAGE value="Commit for LAB4_1." />
     <MESSAGE value="TablicaDwuwymiarowa FirstCommit." />
-    <option name="LAST_COMMIT_MESSAGE" value="TablicaDwuwymiarowa FirstCommit." />
+    <MESSAGE value="Tablica wypeł. i wyświet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tablica wypeł. i wyświet." />
   </component>
 </project>

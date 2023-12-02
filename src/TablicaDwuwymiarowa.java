@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 
 public class TablicaDwuwymiarowa {
@@ -13,8 +14,17 @@ public class TablicaDwuwymiarowa {
         wypelnienieTablicy(tablicaDwuwymiarowa, 20,45);
 
         //Wyświetlenie tablicy wypełnionej liczbami losowymi
+        System.out.println("Tablica Oryginalna:");
         wyswietlTablice(tablicaDwuwymiarowa);
-
+        //Posortowanie elementów tablicy za pomocą metody sortujTablicę
+        sortujTablice(tablicaDwuwymiarowa);
+        //Wyswietlenie tablicy posortowanej
+        System.out.println("Tablica Posortowana:");
+        wyswietlTablice(tablicaDwuwymiarowa);
+        //Utworzenie histogramu
+        System.out.println("Histogram: ");
+        int[] histogram = utworzHistogram(tablicaDwuwymiarowa);
+        wyswietlHistogram(histogram);
 
 
 
@@ -46,10 +56,43 @@ public class TablicaDwuwymiarowa {
             }
             System.out.println();
         }
+    }
+
+    //Metoda sortująca
+    //Użycie pętli for-each która iteruje przez każdy woiersz tablicy dwuwymiarowej i go sortuje
+    //za pomocą metody sort klasy Arrays
+    public static void sortujTablice(int[][] tablica) // przyjęcie tablicy dwuwymiarowej jako argument
+    {
+        for(int[] row: tablica)
+        {
+            Arrays.sort(row);
+        }
+    }
+
+    //Metoda tworząca histogram
+    private static int[] utworzHistogram(int[][] tablica)
+    {
+        int[] histogram = new int[46-20+1]; // zakres od 20 do 45
+
+        for(int[] rzad: tablica)
+        {
+            for(int liczba : rzad)
+            {
+                histogram[liczba -20]++;
+            }
+        }
+        return histogram;
+    }
 
 
 
-
+    //Metoda wyświetlająca histogram (ilosc wystąpień)
+    public static void wyswietlHistogram(int[] histogram)
+    {
+        for(int i = 20; i<=45; i++)
+        {
+            System.out.println(i + ": " + histogram[i-20] + " wystąpień.");
+        }
     }
 
 
