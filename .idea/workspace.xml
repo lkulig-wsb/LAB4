@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc8d991b-5432-41b1-b5e7-0aa8a62d7096" name="Changes" comment="Commit for LAB4_1.">
-      <change afterPath="$PROJECT_DIR$/src/GarbageCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TablicaDwuwymiarowa.java" afterDir="false" />
+    <list default="true" id="fc8d991b-5432-41b1-b5e7-0aa8a62d7096" name="Changes" comment="TablicaDwuwymiarowa FirstCommit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Konstruktor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konstruktor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablicaDwuwymiarowa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablicaDwuwymiarowa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,9 @@
       <workItem from="1701437722270" duration="1270000" />
       <workItem from="1701508395695" duration="5340000" />
       <workItem from="1701517913214" duration="4000" />
-      <workItem from="1701517963790" duration="58000" />
+      <workItem from="1701517963790" duration="759000" />
+      <workItem from="1701518752899" duration="606000" />
+      <workItem from="1701519396506" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit for LAB4.">
       <option name="closed" value="true" />
@@ -80,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701509304161</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TablicaDwuwymiarowa FirstCommit.">
+      <option name="closed" value="true" />
+      <created>1701518079343</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701518079343</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit for LAB4." />
     <MESSAGE value="Commit for LAB4_1." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit for LAB4_1." />
+    <MESSAGE value="TablicaDwuwymiarowa FirstCommit." />
+    <option name="LAST_COMMIT_MESSAGE" value="TablicaDwuwymiarowa FirstCommit." />
   </component>
 </project>
