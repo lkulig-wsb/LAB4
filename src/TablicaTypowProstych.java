@@ -34,7 +34,5 @@ public class TablicaTypowProstych {
 
         System.out.println("Znak pod indeksem 0: " + tablicaChar[0]);
         System.out.println( tablicaChar[0]+ "" + tablicaChar[5]+ "" + tablicaChar[0]);
-
     }
-
 }
