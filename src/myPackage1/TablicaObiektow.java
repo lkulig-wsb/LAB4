@@ -4,7 +4,7 @@ public class TablicaObiektow {
 
     public static void main(String[] args){
 
-        System.out.println("TABLICA OBIEKTÓW - POSTACIE ZE ŚWIATA FANTASY");
+        System.out.println("\nTABLICA OBIEKTÓW - POSTACIE ZE ŚWIATA FANTASY");
         System.out.println("---------------------------------------------\n");
 
         //Utworzenie tablicy obiektów
@@ -24,6 +24,32 @@ public class TablicaObiektow {
         {
             System.out.println(postac.getNazwa() + ", " + postac.getPochodzenie() + ", " + postac.getRokProdukcji());
         }
+
+        System.out.println("\nWyszukanie elementu z tablicy");
+        System.out.println("-----------------------------");
+        //Wyszukanie postaci
+        String szukanaPostac = "Aragorn";
+        Postac znalezionaPosac = null;
+
+        for (Postac postac : tablicaPostaci)
+        {
+            if(postac != null && postac.getNazwa().equals(szukanaPostac))
+            {
+                znalezionaPosac = postac;
+                break; //Przerwanie pętli po znalezieniu postaci
+            }
+        }
+
+        //Wyswietlnienie szukanej postaci
+        if(znalezionaPosac !=null){
+            System.out.println("Znaleziona postać: " + znalezionaPosac.getNazwa());
+            System.out.println("Pochodzenie: " + znalezionaPosac.getPochodzenie());
+            System.out.println("Rok produkcji: " + znalezionaPosac.getRokProdukcji());
+
+        }else{
+            System.out.println("Nie znaleziono postaci o nazwie: " + szukanaPostac);
+        }
+
     }
 
 }
