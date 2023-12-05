@@ -1,7 +1,8 @@
 package myPackage1;
 
+import java.util.Arrays;
 import java.util.Scanner;
-
+import  java.util.Comparator;
 public class TablicaObiektow {
 
     public static void main(String[] args){
@@ -30,7 +31,6 @@ public class TablicaObiektow {
         System.out.println("\nWyszukanie elementu z tablicy");
         System.out.println("-----------------------------");
         //Wyszukanie postaci
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Podaj nazwę postaci: ");
@@ -59,6 +59,24 @@ public class TablicaObiektow {
             System.out.println("Nie znaleziono postaci o nazwie: " + szukanaPostac);
         }
 
-    }
+        //Sortowanie postaci według roku produkcji
+        System.out.println("\nSortowanie na podstawie Roku Produkcji: ");
+        System.out.println("----------------------------------------");
+        sortujWedlugRokuProdukcji(tablicaPostaci);
 
+        //Wyświetlenie posortowanej tablicy
+        for(Postac postac : tablicaPostaci){
+
+            System.out.println(postac.getRokProdukcji() + "-" + postac.getNazwa() + "-" + postac.getPochodzenie());
+        }
+    }
+    //Metoda sortująca postacie według roku produkcji.
+    //Metoda przyjmuje jako argumenty tablicę obiektów klasy Postac.
+    //Wewnątrz używamy metodę sort z klasy Arrays. Jako pierwszy argument przekazujemy tablicę obiektów.
+    //Jako drugi argument dajemy obiekt klasy Comparator.
+    //Comparator to Interface funkcyjny, który służy do porównywania obiektów.
+    //.comparingInt(Postac::getRokProdukcji)) - określa jak porównywać obiekty klasy Postać.
+    public static void sortujWedlugRokuProdukcji(Postac[] tablicaPostaci){
+        Arrays.sort(tablicaPostaci,Comparator.comparingInt(Postac::getRokProdukcji));
+    }
 }
