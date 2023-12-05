@@ -1,5 +1,7 @@
 package myPackage1;
 
+import java.util.Scanner;
+
 public class TablicaObiektow {
 
     public static void main(String[] args){
@@ -28,7 +30,13 @@ public class TablicaObiektow {
         System.out.println("\nWyszukanie elementu z tablicy");
         System.out.println("-----------------------------");
         //Wyszukanie postaci
-        String szukanaPostac = "Aragorn";
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Podaj nazwę postaci: ");
+        String szukanaPostac = scanner.nextLine();
+
+        //String szukanaPostac = "Aragorn";
         Postac znalezionaPosac = null;
 
         for (Postac postac : tablicaPostaci)
@@ -42,6 +50,7 @@ public class TablicaObiektow {
 
         //Wyswietlnienie szukanej postaci
         if(znalezionaPosac !=null){
+            System.out.println("-------------------------");
             System.out.println("Znaleziona postać: " + znalezionaPosac.getNazwa());
             System.out.println("Pochodzenie: " + znalezionaPosac.getPochodzenie());
             System.out.println("Rok produkcji: " + znalezionaPosac.getRokProdukcji());

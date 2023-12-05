@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc8d991b-5432-41b1-b5e7-0aa8a62d7096" name="Changes" comment="4.9 Commit.">
+    <list default="true" id="fc8d991b-5432-41b1-b5e7-0aa8a62d7096" name="Changes" comment="4.10 Initial Commit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/myPackage1/TablicaObiektow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myPackage1/TablicaObiektow.java" afterDir="false" />
     </list>
@@ -64,7 +64,8 @@
       <workItem from="1701519396506" duration="8190000" />
       <workItem from="1701528770711" duration="673000" />
       <workItem from="1701604847738" duration="2922000" />
-      <workItem from="1701628619799" duration="1284000" />
+      <workItem from="1701628619799" duration="1987000" />
+      <workItem from="1701751575856" duration="371000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit for LAB4.">
       <option name="closed" value="true" />
@@ -122,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701606426602</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="4.10 Initial Commit.">
+      <option name="closed" value="true" />
+      <created>1701629961193</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701629961193</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +145,7 @@
     <MESSAGE value="Sortowanie i Histogram." />
     <MESSAGE value="4.8 Commit" />
     <MESSAGE value="4.9 Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="4.9 Commit." />
+    <MESSAGE value="4.10 Initial Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="4.10 Initial Commit." />
   </component>
 </project>
