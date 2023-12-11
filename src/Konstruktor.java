@@ -1,11 +1,11 @@
 public class Konstruktor {
 
-    //Konstruktor bez parametrów
+    //Konstruktor bez parametrów.
     public Konstruktor()
     {
         System.out.println("Jestem konstruktorem bez parametrów :)");
     }
-    //Konstruktor z parametrami
+    //Konstruktor z parametrami.
 
     public Konstruktor(String tekst)
     {
@@ -13,14 +13,13 @@ public class Konstruktor {
     }
     public static void main(String[] args){
 
-        //4.1 Przetestować działanie konstruktora z parametrami lub bez
+        //4.1 Przetestować działanie konstruktora z parametrami lub bez.
         System.out.println("--LAB4_1 --");
 
         //Utworznie obiektu za pomocą konstruktora bez parametrów
         Konstruktor obiekt1 = new Konstruktor();
 
-        //Utworznie obiektu za pomocą konstruktora z parametrami
+        //Utworznie obiektu za pomocą konstruktora z parametrami.
         Konstruktor obiekt2 = new Konstruktor("Jak się masz :-> ?");
     }
-
 }
