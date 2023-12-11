@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc8d991b-5432-41b1-b5e7-0aa8a62d7096" name="Changes" comment="LAB4_1 Update1 Commit.">
+    <list default="true" id="fc8d991b-5432-41b1-b5e7-0aa8a62d7096" name="Changes" comment="LAB4_5 Update1 Commit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TablicaDwuwymiarowa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablicaDwuwymiarowa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Film.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,8 @@
       <workItem from="1701866319053" duration="220000" />
       <workItem from="1702278281255" duration="800000" />
       <workItem from="1702287120677" duration="6307000" />
-      <workItem from="1702298770875" duration="4491000" />
+      <workItem from="1702298770875" duration="6671000" />
+      <workItem from="1702313852712" duration="3625000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit for LAB4.">
       <option name="closed" value="true" />
@@ -185,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702298556143</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="LAB4_5 Update1 Commit.">
+      <option name="closed" value="true" />
+      <created>1702305110486</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702305110486</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +215,7 @@
     <MESSAGE value="LAB4_9 &amp; 10 Update1 Commit." />
     <MESSAGE value="LAB4_11 Update1 Commit." />
     <MESSAGE value="LAB4_1 Update1 Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="LAB4_1 Update1 Commit." />
+    <MESSAGE value="LAB4_5 Update1 Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="LAB4_5 Update1 Commit." />
   </component>
 </project>
