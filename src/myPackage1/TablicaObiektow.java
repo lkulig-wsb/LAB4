@@ -1,5 +1,4 @@
 package myPackage1;
-
 import java.util.Arrays;
 import java.util.Scanner;
 import  java.util.Comparator;
@@ -10,10 +9,10 @@ public class TablicaObiektow {
         System.out.println("\nTABLICA OBIEKTÓW - POSTACIE ZE ŚWIATA FANTASY");
         System.out.println("---------------------------------------------\n");
 
-        //Utworzenie tablicy obiektów
+        //Utworzenie tablicy obiektów.
         Postac[] tablicaPostaci = new Postac[6];
 
-        //Przypisanie obiektów do elementów tablicy
+        //Przypisanie obiektów do elementów tablicy Postac[].
         tablicaPostaci[0] = new Postac("Bilbo Baggins","Hobbit",1937);
         tablicaPostaci[1] = new Postac("Kapitan Ahab","Moby Dick",1851);
         tablicaPostaci[2] = new Postac("Paul Atryda","Dune",1965);
@@ -21,8 +20,8 @@ public class TablicaObiektow {
         tablicaPostaci[4] = new Postac("Aragorn","LOTR",1937);
         tablicaPostaci[5] = new Postac("Daenerys","GOT",1996);
 
-        //Odwołanie się do elementów tablicy i wyświetlenie ich wartości
-        //Pętla for-each
+        //Odwołanie się do elementów tablicy i wyświetlenie ich wartości przy użyciu pętli for each.
+
         for(Postac postac : tablicaPostaci)
         {
             System.out.println(postac.getNazwa() + ", " + postac.getPochodzenie() + ", " + postac.getRokProdukcji());
@@ -30,30 +29,39 @@ public class TablicaObiektow {
 
         System.out.println("\nWyszukanie elementu z tablicy");
         System.out.println("-----------------------------");
-        //Wyszukanie postaci
+        //Wyszukanie elementu z tablicy tablicaPostaci[].
+        //Utworzenie obiektu Scanner do wczytywania danych z konsoli.
         Scanner scanner = new Scanner(System.in);
 
+        //Prosimy użytkownika o podanie nazwy szukanej postaci.
         System.out.print("Podaj nazwę postaci: ");
         String szukanaPostac = scanner.nextLine();
 
         //String szukanaPostac = "Aragorn";
-        Postac znalezionaPosac = null;
+        //Utworzenie zmiennej znalezionaPostac typu Postac z inicjalizacją na null.
+        //Zmienna będzie przechowywać referencję do znalezionej postaci.
+        Postac znalezionaPostac = null;
 
+        //Pętlą for each przechodzi przez każdy element tablicy.
+        //W pętli sprawdzane są dwa warunki: czy elelement istnieje i porównuje nazwę postaci z tablicy z
+        //nazwą wprowadzoną.
+        //Jeśli oba warunki zostaną spełnione to ustawiamy znalezionaPostac na referencję do znalezionej postaci i
+        //przerywamy pętlę.
         for (Postac postac : tablicaPostaci)
         {
             if(postac != null && postac.getNazwa().equals(szukanaPostac))
             {
-                znalezionaPosac = postac;
+                znalezionaPostac = postac;
                 break; //Przerwanie pętli po znalezieniu postaci
             }
         }
 
-        //Wyswietlnienie szukanej postaci
-        if(znalezionaPosac !=null){
+        //Wyswietlnienie szukanej postaci.
+        if(znalezionaPostac !=null){
             System.out.println("-------------------------");
-            System.out.println("Znaleziona postać: " + znalezionaPosac.getNazwa());
-            System.out.println("Pochodzenie: " + znalezionaPosac.getPochodzenie());
-            System.out.println("Rok produkcji: " + znalezionaPosac.getRokProdukcji());
+            System.out.println("Znaleziona postać: " + znalezionaPostac.getNazwa());
+            System.out.println("Pochodzenie: " + znalezionaPostac.getPochodzenie());
+            System.out.println("Rok produkcji: " + znalezionaPostac.getRokProdukcji());
 
         }else{
             System.out.println("Nie znaleziono postaci o nazwie: " + szukanaPostac);

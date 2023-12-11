@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc8d991b-5432-41b1-b5e7-0aa8a62d7096" name="Changes" comment="4.11 Sorting Commit.">
-      <change afterPath="$PROJECT_DIR$/src/Film.java" afterDir="false" />
+    <list default="true" id="fc8d991b-5432-41b1-b5e7-0aa8a62d7096" name="Changes" comment="LAB4_8 Update1 Commit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TablicaTypowProstych.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablicaTypowProstych.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myPackage1/Postac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myPackage1/Postac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myPackage1/TablicaObiektow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myPackage1/TablicaObiektow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <workItem from="1701798745815" duration="3269000" />
       <workItem from="1701866319053" duration="220000" />
       <workItem from="1702278281255" duration="800000" />
-      <workItem from="1702287120677" duration="1014000" />
+      <workItem from="1702287120677" duration="4485000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit for LAB4.">
       <option name="closed" value="true" />
@@ -153,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701757141220</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="LAB4_8 Update1 Commit.">
+      <option name="closed" value="true" />
+      <created>1702288434546</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702288434546</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +178,7 @@
     <MESSAGE value="4.10 Initial Commit." />
     <MESSAGE value="4.10 Second Commit." />
     <MESSAGE value="4.11 Sorting Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="4.11 Sorting Commit." />
+    <MESSAGE value="LAB4_8 Update1 Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="LAB4_8 Update1 Commit." />
   </component>
 </project>
