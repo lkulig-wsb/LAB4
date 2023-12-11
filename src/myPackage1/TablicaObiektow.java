@@ -67,12 +67,13 @@ public class TablicaObiektow {
             System.out.println("Nie znaleziono postaci o nazwie: " + szukanaPostac);
         }
 
-        //Sortowanie postaci według roku produkcji
+        //Sortowanie postaci według roku produkcji.
         System.out.println("\nSortowanie na podstawie Roku Produkcji: ");
         System.out.println("----------------------------------------");
+        //Użycie metody sortującej na tablicyPostaci[].
         sortujWedlugRokuProdukcji(tablicaPostaci);
 
-        //Wyświetlenie posortowanej tablicy
+        //Wyświetlenie posortowanej tablicyPostaci[].
         for(Postac postac : tablicaPostaci){
 
             System.out.println(postac.getRokProdukcji() + "-" + postac.getNazwa() + "-" + postac.getPochodzenie());
