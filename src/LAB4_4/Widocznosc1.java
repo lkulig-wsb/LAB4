@@ -35,7 +35,6 @@ public class Widocznosc1 {
         System.out.println("Jestem Konstruktor Private!");
     }
 
-
     //Metody i ich widoczność
     //Prywatna metoda dostępna wyłącznie w danej klasie.
     private void prywatnaMetoda(){
@@ -73,15 +72,12 @@ public class Widocznosc1 {
         Widocznosc1 obj1a = new Widocznosc1("Tekst");
         Widocznosc1 obj1b = new Widocznosc1(5);
         Widocznosc1 obj1c = new Widocznosc1(3.14);
-
         //Bepośrednie wyświetlenie prywatnego pola.
         System.out.println("poleStringPriv: " + obj1.poleStringPriv);
         System.out.println("poleIntPriv: " + obj1.poleIntPriv);
-
         //Wyświetlenie za pomocą getterów.
         System.out.println("Pole Private String: " + obj1.getPoleStringPriv());
         System.out.println("Pole Private Int: " + obj1.getPoleIntPriv());
-
         //Pole protected w obrębie tej samej klasy zostanie wyświetlone.
         System.out.println("Pole protected w tej samej klasie: " + obj1.stringChroniony);
 
@@ -94,9 +90,5 @@ public class Widocznosc1 {
         obj1.domyslnaMetoda();
         //Metoda public widoczna w tej samej klasie.
         obj1.publicMetoda();
-        //Konstruktory
-
-
-
     }
 }

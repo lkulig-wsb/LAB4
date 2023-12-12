@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc8d991b-5432-41b1-b5e7-0aa8a62d7096" name="Changes" comment="LAB4_7 Update1 Commit.">
-      <change afterPath="$PROJECT_DIR$/src/DostępnośćMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LAB4_4/Widocznosc1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LAB4_4/Widocznosc2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PublicK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Widocznosc3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Widocznosc4.java" afterDir="false" />
+    <list default="true" id="fc8d991b-5432-41b1-b5e7-0aa8a62d7096" name="Changes" comment="LAB4_4 Update1 Commit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LAB4_4/Widocznosc1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LAB4_4/Widocznosc1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LAB4_4/Widocznosc2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LAB4_4/Widocznosc2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +76,7 @@
       <workItem from="1702313852712" duration="5275000" />
       <workItem from="1702360311041" duration="6705000" />
       <workItem from="1702370806843" duration="7007000" />
-      <workItem from="1702388937968" duration="2320000" />
+      <workItem from="1702388937968" duration="2779000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit for LAB4.">
       <option name="closed" value="true" />
@@ -211,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702318308505</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="LAB4_4 Update1 Commit.">
+      <option name="closed" value="true" />
+      <created>1702391304744</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702391304744</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +237,7 @@
     <MESSAGE value="LAB4_1 Update1 Commit." />
     <MESSAGE value="LAB4_5 Update1 Commit." />
     <MESSAGE value="LAB4_7 Update1 Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="LAB4_7 Update1 Commit." />
+    <MESSAGE value="LAB4_4 Update1 Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="LAB4_4 Update1 Commit." />
   </component>
 </project>

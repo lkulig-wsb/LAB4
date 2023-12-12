@@ -1,12 +1,9 @@
 import LAB4_4.Widocznosc1;
 
 public class Widocznosc4 extends Widocznosc1 {
-
-
     public static void main(String[] args){
         Widocznosc4 obj5 = new Widocznosc4();
        // Widocznosc4 obj5a = new Widocznosc4("test"); - Konstruktor domyślny nie będzie widoczny w klasie pochodnej.
-
 
         //Pole chronione stringChroniony z klasy Widocznosc1 jest widoczny w klasie dziedziczącej (Widocznosc4).
         System.out.println(" Pole chronione 'stringChroniony' jest widoczne w klasie pochodnej: " + obj5.stringChroniony);

@@ -1,11 +1,8 @@
 package LAB4_4;
-
 public class Widocznosc2 {
-
     public Widocznosc2(double z){
         super();
-    }
-    public static void main(String[] args){
+    }public static void main(String[] args){
 
         Widocznosc1 obj2 = new Widocznosc1();
         Widocznosc1 obj2a = new Widocznosc1("Tekst");
@@ -26,6 +23,5 @@ public class Widocznosc2 {
         obj2.protectedMetoda();
         //Metoda public widoczna w pakiecie.
         obj2.publicMetoda();
-
     }
 }
