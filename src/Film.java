@@ -20,6 +20,7 @@ public class Film implements Cloneable {
                 + ", reżyser='"+ rezyser + '\''
                 + ", rok Produkcji -> " +rokProdukcji + " >>";
     }
+
     //Żeby korzystać z tej metody, klasa musi implementować interfejs Cloneable.
     //Metoda musi też zostać przesłonięta.
     //Metoda zwraca objekt jako typ "Object".
@@ -28,7 +29,8 @@ public class Film implements Cloneable {
     protected Film clone()throws CloneNotSupportedException{
         return (Film) super.clone();
     }
-    //Przesłanianie metody equals()
+
+    //Przesłanianie metody equals().
     @Override
     public boolean equals(Object obj){ //argument typu Object, jest to przesłanianie metody z klasy Object.
         if(this == obj)return true; //czy objekt i przekazany obiekt to ta sama referencja.
